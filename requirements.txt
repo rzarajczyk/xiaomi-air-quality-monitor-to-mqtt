@@ -1,0 +1,4 @@
+APScheduler==3.9.1
+homie-helpers~=0.0.6
+python-miio~=0.5.11
+service-bootstrap
