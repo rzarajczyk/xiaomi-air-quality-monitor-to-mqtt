@@ -1,1 +1,1 @@
-# xiaomi-desk-light
+# xiaomi-air-quality-monitor-to-mqtt
