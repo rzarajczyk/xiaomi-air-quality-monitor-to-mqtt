@@ -10,6 +10,6 @@ scheduler = BlockingScheduler(timezone=timezone)
 
 device = XiaomiAirQualityMonitor(config=config['xiaomi-air-quality-monitor'], mqtt_settings=MqttSettings.from_dict(config['mqtt']))
 
-scheduler.add_job(device.refresh, 'interval', seconds=config['fetch-interval-seconds'])
+scheduler.add_job(device.refresh, 'interval', seconds=config['xiaomi-air-quality-monitor']['fetch-interval-seconds'])
 
 scheduler.start()
